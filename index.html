@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Генератор случайных чисел JS</title>
+<link href="css/style.css" type="text/css" rel="stylesheet">
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
+<script src="js/script.js"></script>
+<noscript><span>Для использования генератора необходимо включить Javascript!</span></noscript>
+</head>
+<body>
+	<div id="box">
+		<audio id="myaudio" preload="auto">
+		   <source src="audio/beep.ogg">
+		   <source src="audio/beep.mp3">
+		 </audio>
+		<button id="buttonGoRand" type="input">Сгенерировать</button>
+		<div class="num-slider"></div> 
+		<div id="num-slider-result">1</div> 
+		<div id="input-num-block">
+			<p>В диапозоне:</p>
+			<span>От</span><input id="min-num" type="text">
+			<span>До</span><input id="max-num" type="text ">
+		</div>
+			<input type="text" id="hidden" value='1'>
+			<span  id="delRepeats">
+			<label for="delRep">Удалить повторы</label><input id="delRep" type="checkbox"></span>
+		<div id="result-screen">
+			<div id="result-screen-cap">
+				<h2>Результат:</h2>
+			</div>	
+			<div id="result-screen-content">
+			
+			</div>
+		</div>	
+	</div>	
+</body>
+</html>
