@@ -1,4 +1,4 @@
-GenerationNumber
+NumberGeneration v1
 ================
 Генератор случайных чисел JS
 
