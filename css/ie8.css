@@ -1,0 +1,9 @@
+#buttonGoRand{
+	border-bottom:5px solid #000;
+}
+#num-slider-result, #input-num-block span{
+	color:#333;
+}
+input#min-num, input#max-num {
+	line-height:40px;
+}

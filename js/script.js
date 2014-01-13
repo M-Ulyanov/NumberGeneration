@@ -54,9 +54,12 @@ $(function(){
 	}
 	
 	//По клику	
-	$('#buttonGoRand').on('click', function(){		
+	$('#buttonGoRand').on('click', function(){
+		if (document.all && document.querySelector && !document.addEventListener){
+		}else{
 			var myaudio = $("#myaudio")[0];
 			myaudio.play();
+		}
 		del();
 		var min = $('#min-num').val(),
 			max = $('#max-num').val(),
