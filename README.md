@@ -18,4 +18,4 @@ NumberGeneration v1
 
 ##Пример работы
 
-Можно посмотреть <a href="http://dd.web-ulyanov.ru/NumberGeneration ">Здесь</a>
+Можно посмотреть <a href="http://example.web-ulyanov.ru/frontend/GenerationNumber/">Здесь</a>
